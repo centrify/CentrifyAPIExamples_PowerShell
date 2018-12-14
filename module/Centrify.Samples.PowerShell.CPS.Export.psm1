@@ -1,4 +1,5 @@
-Import-Module ..\Imports\Centrify.Samples.PowerShell.psm1 3>$null 4>$null
+$scriptRoot = $PSScriptRoot
+Import-Module $PSScriptRoot\Centrify.Samples.PowerShell.psm1   3>$null 4>$null
 
 <# 
  .Synopsis
